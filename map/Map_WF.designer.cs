@@ -84,6 +84,7 @@ namespace CS_Map
             this.bt_search.TabIndex = 1;
             this.bt_search.UseVisualStyleBackColor = true;
             this.bt_search.Click += new System.EventHandler(this.bt_search_Click);
+            this.bt_search.parent = this.gMapControl;
             // 
             // pictureBox1
             // 
@@ -96,6 +97,7 @@ namespace CS_Map
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.parent = this.gMapControl;
             // 
             // txt_search
             // 
