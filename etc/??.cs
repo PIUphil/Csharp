@@ -6,6 +6,6 @@ class Program
   {      
     string a = "hello";
     string b = null;
-    Console.WriteLine(b??a);    // Console.WriteLine((b!=null) ? b : a);
+    Console.WriteLine(b??a);    // Console.WriteLine(!string.IsNullOrEmpty(b) ? b : a);
   }
 }
